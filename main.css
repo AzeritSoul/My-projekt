@@ -1,0 +1,694 @@
+    .wrapper {
+        width: 1440px;
+        height: 5575px;
+        margin: 0 auto;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    button {
+        border: none;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header nav {
+        height: 130px;
+        width: 1440px;
+        display: flex;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+    }
+    
+    nav a:last-child {
+        margin-right: 120px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav_logo {
+        display: flex;
+        margin-right: 300px;
+        align-items: center;
+        gap: 5px;
+        margin-left: 135px;
+    }
+    
+    .nav_info a {
+        margin-right: 40px;
+    }
+    
+    nav button {
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        width: 96px;
+        height: 40px;
+        border-radius: 6px;
+        background: #19BCE4;
+        border: none;
+        margin-right: 135px;
+    }
+    
+    button:hover {
+        background: blue;
+    }
+    
+    a:hover {
+        color: blueviolet;
+    }
+    
+    .bunner {
+        background: url(img/image\ 134.png);
+        height: 700px;
+        width: 1440px;
+        text-align: center;
+    }
+    
+    .bunner_style {
+        width: 1440px;
+        height: 720px;
+        background-color: rgba(0, 0, 0, 0.56);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bunner h1 {
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 185px;
+    }
+    
+    .bunner p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 98px;
+    }
+    
+    .order {
+        width: 1117px;
+        height: 118px;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 140px;
+    }
+    
+    .order div {
+        width: 220px;
+        height: 70px;
+        display: flex;
+        align-items: start;
+        padding-left: 30px;
+        flex-direction: column;
+        border: 0.5px solid rgba(25, 188, 228, 0.3);
+        row-gap: 8px;
+    }
+    
+    .order div:hover {
+        box-shadow: 0 0 20px 0;
+        transition: 2s;
+    }
+    
+    .order h3 {
+        word-spacing: 10px;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .order h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .order button {
+        background: #19BCE4;
+        width: 240px;
+        height: 70px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    
+    .order button:hover {
+        background: blue;
+    }
+    
+    .section_pros {
+        display: flex;
+        margin-top: 120px;
+    }
+    
+    .section_pros div {
+        display: flex;
+    }
+    
+    .section_text {
+        flex-direction: column;
+    }
+    
+    .section_text h3 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+    
+    .section_text h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+    
+    .section_text p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+    
+    .section_foto {
+        width: 600px;
+        margin-left: 140px;
+    }
+    
+    .section_foto_size {
+        width: 520px;
+        height: 560px;
+    }
+    
+    .section_foto_size-2 {
+        position: relative;
+        top: 440px;
+        right: 200px;
+        width: 240px;
+        height: 160px;
+    }
+    
+    .pros_company {
+        display: flex;
+        gap: 100px;
+    }
+    
+    .pros_company .pros {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pros img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 24px;
+    }
+    
+    .pros h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .pros p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .pros button {
+        width: 169px;
+        height: 56px;
+        background: #19BCE4;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+        border-radius: 6px;
+        margin-bottom: 168px;
+    }
+    
+    .pros button:hover {
+        background: blue;
+    }
+    
+    .section_advantages {
+        background: #F8FDFE;
+        display: flex;
+        justify-content: center;
+        width: 1440px;
+        height: 800px;
+    }
+    
+    .advantages {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        column-gap: 50px;
+    }
+    
+    .advantages .post_text {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 68px;
+        margin-top: 75px;
+    }
+    
+    .section_advantages img {
+        width: 560px;
+        height: 527px;
+    }
+    
+    .advantages_card h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .advantages_card p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .advantages_card {
+        gap: 28px;
+        width: 542px;
+        height: 118px;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid rgba(25, 188, 228, 0.2);
+    }
+    
+    .advantages_card:hover {
+        box-shadow: 0 0 20px 0;
+        transition: 2s;
+    }
+    
+    .advantages_card div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+    }
+    
+    .advantages_position {
+        margin-top: 204px;
+    }
+    
+    .advantages_style {
+        gap: 0px;
+    }
+    
+    .advantages_card img {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .section_places {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+    }
+    
+    .section_places h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        margin-top: 120px;
+    }
+    
+    .section_places p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+    
+    .places_card {
+        display: grid;
+        grid-template-areas: "a b c" "a d e";
+        grid-template-columns: repeat(3, 366px);
+        grid-template-rows: repeat(2, 255px);
+        gap: 30px;
+        margin-left: 130px;
+        margin-bottom: 120px;
+    }
+    
+    .places_card div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .grid_a {
+        width: 370px;
+        height: 540px;
+        grid-area: a;
+        background: url(img/Rectangle2186.png);
+    }
+    
+    .grid_b {
+        grid-area: b;
+        background: url(img/Rectangle2187.png);
+    }
+    
+    .grid_c {
+        grid-area: c;
+        background: url(img/Rectangle2188.png);
+    }
+    
+    .grid_d {
+        grid-area: d;
+        background: url(img/Rectangle2189.png);
+    }
+    
+    .grid_e {
+        grid-area: e;
+        background: url(img/Rectangle2190.png);
+    }
+    
+    .grid_item_style {
+        color: #FFFFFF;
+        width: 200px;
+        height: 88px;
+        background: rgba(0, 96, 119, 0.02);
+        backdrop-filter: blur(29px);
+        margin-top: 120px;
+    }
+    
+    .grid_item_style h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .grid_item_style p {
+        font-size: 20px;
+        line-height: 27px;
+        color: #DDDDDD;
+    }
+    
+    .item_position {
+        margin-top: 230px;
+    }
+    
+    .places_card div:hover {
+        box-shadow: 0 0 20px 0;
+        transition: 2s;
+    }
+    
+    .section_us {
+        display: flex;
+        justify-content: center;
+        background: #F8FDFE;
+        column-gap: 36px;
+        margin-bottom: 120px;
+    }
+    
+    .choose_us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .choose_us h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .choose_us p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .choose_us button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 24px;
+        width: 190px;
+        height: 56px;
+        background: #19BCE4;
+        border-radius: 6px;
+        column-gap: 20px;
+        color: #FFFFFF;
+    }
+    
+    .choose_us button:hover {
+        background: blue;
+    }
+    
+    .section_people {
+        background: #FFF8F7;
+        width: 1440px;
+        height: 720px;
+        margin-bottom: 120px;
+    }
+    
+    .section_people .what {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .what h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        margin-top: 96px;
+    }
+    
+    .what p {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 60px;
+    }
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        margin-top: 80px;
+    }
+    
+    .people div:not(.stars) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        background: #FFFFFF;
+        position: relative;
+        height: 220px;
+        padding-top: 60px;
+    }
+    
+    .people div:not(.stars):hover {
+        transform: scale(1.1);
+        transition: 1s;
+        box-shadow: 0 0 20px 0;
+    }
+    
+    .people div h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 7px;
+    }
+    
+    .people div p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .people img {
+        width: 144px;
+        height: 144px;
+        position: absolute;
+        top: -80px;
+    }
+    
+    .people .stars {
+        display: flex;
+        column-gap: 3px;
+    }
+    
+    .section_subscribe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .subscribe {
+        background: #19BCE4;
+        width: 1152px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 24px;
+        margin-bottom: 120px;
+    }
+    
+    .your_mail input {
+        width: 720px;
+        height: 64px;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    .your_mail button {
+        width: 120px;
+        height: 48px;
+        border-radius: 6px;
+        background: #19BCE4;
+        border: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 27px;
+        position: relative;
+        right: 130px;
+    }
+    
+    .your_mail button:hover {
+        background: blue;
+    }
+    
+    .subscribe h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        margin-top: 48px;
+        margin-bottom: 40px;
+    }
+    
+    .section_bottom_info {
+        display: flex;
+        justify-content: center;
+        column-gap: 44px;
+    }
+    
+    .section_bottom_info .info_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    .info_item p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 38px;
+    }
+    
+    .info_item div {
+        display: flex;
+        column-gap: 24px;
+    }
+    
+    .info_logo {
+        display: flex;
+        align-items: center;
+        column-gap: 6px;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    
+    .info_item h2 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+    
+    .info_item a {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 6px;
+    }
+    
+    .item_position {
+        margin-bottom: 35px;
+        margin-top: 0px;
+    }
+    
+    .item_position-2 {
+        margin-bottom: 70px;
+    }
+    
+    .item_position-2 a i {
+        margin-right: 8px;
+    }
+    
+    .item_position-2 a i:hover {
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    .info_item i:hover {
+        transition: 2s;
+        transform: scale(1.5);
+    }
+    
+    @media screen and (max-width: 768px) {
+        * {
+            font-size: 100%;
+        }
+        .section_foto {
+            width: 100%;
+            height: 100%;
+        }
+        .section_foto img {
+            width: 100%;
+            height: 100%;
+        }
+        .section_text {
+            margin-top: 120px;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .section_text div {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section_pros {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section_pros div {
+            height: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {}
