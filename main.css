@@ -1,8 +1,10 @@
     .wrapper {
-        width: 1440px;
-        height: 5575px;
-        margin: 0 auto;
+        min-width: 1440px;
+        min-height: 5575px;
         font-family: 'Rubik', sans-serif;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
     }
     
     button {
@@ -206,7 +208,6 @@
     
     .pros_company {
         display: flex;
-        gap: 100px;
     }
     
     .pros_company .pros {
@@ -251,7 +252,7 @@
         display: flex;
         justify-content: center;
         width: 1440px;
-        height: 800px;
+        min-height: 800px;
     }
     
     .advantages {
@@ -287,8 +288,8 @@
     
     .advantages_card {
         gap: 28px;
-        width: 542px;
-        height: 118px;
+        min-width: 542px;
+        min-height: 118px;
         background: #FFFFFF;
         display: flex;
         align-items: center;
@@ -347,7 +348,6 @@
         grid-template-columns: repeat(3, 366px);
         grid-template-rows: repeat(2, 255px);
         gap: 30px;
-        margin-left: 130px;
         margin-bottom: 120px;
     }
     
@@ -421,6 +421,7 @@
         background: #F8FDFE;
         column-gap: 36px;
         margin-bottom: 120px;
+        width: 100%;
     }
     
     .choose_us {
@@ -434,6 +435,7 @@
         font-size: 48px;
         line-height: 60px;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     
     .choose_us p {
@@ -462,8 +464,8 @@
     
     .section_people {
         background: #FFF8F7;
-        width: 1440px;
-        height: 720px;
+        min-width: 1440px;
+        min-height: 720px;
         margin-bottom: 120px;
     }
     
@@ -494,6 +496,8 @@
         justify-content: center;
         column-gap: 30px;
         margin-top: 80px;
+        width: 100%;
+        height: 100%;
     }
     
     .people div:not(.stars) {
@@ -513,7 +517,7 @@
         box-shadow: 0 0 20px 0;
     }
     
-    .people div h2 {
+    .people .people_item h2 {
         font-weight: 500;
         font-size: 24px;
         line-height: 28px;
@@ -521,7 +525,7 @@
         margin-bottom: 7px;
     }
     
-    .people div p {
+    .people .people_item p {
         font-size: 14px;
         line-height: 20px;
         margin-top: 16px;
@@ -594,6 +598,7 @@
         display: flex;
         justify-content: center;
         column-gap: 44px;
+        margin-bottom: 50px;
     }
     
     .section_bottom_info .info_item {
@@ -672,10 +677,26 @@
             height: 100%;
         }
         .section_text {
+            padding-top: 40px;
             margin-top: 120px;
             flex-direction: column;
             align-items: center;
             width: 100%;
+        }
+        .section_text h3 {
+            font-size: 30px;
+        }
+        .section_text h2 {
+            font-size: 50px;
+        }
+        .section_text p {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        .section_text img {
+            width: 270px;
+            height: 250px;
+            padding: 20px;
         }
         .section_text div {
             width: 100%;
@@ -689,6 +710,77 @@
         .section_pros div {
             height: 100%;
         }
+        .section_advantages {
+            flex-direction: column;
+            align-items: center;
+        }
+        .advantages_card {
+            height: 100%;
+            width: 1000px;
+        }
+        .advantages_card:last-child {
+            margin-bottom: 60px;
+        }
+        .advantages_card img {
+            width: 200px;
+            height: 100%;
+            padding: 10px;
+        }
+        .advantages_card h2 {
+            font-size: 60px;
+            line-height: 40px;
+        }
+        .advantages_card p {
+            font-size: 20px;
+            line-height: 35px;
+        }
+        .pros button {
+            min-width: 300px;
+            min-height: 70px;
+            font-size: 30px;
+        }
+        .section_us {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section_us p {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .section_us button {
+            min-width: 300px;
+            min-height: 70px;
+            font-size: 30px;
+        }
+        .people {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            row-gap: 100px;
+        }
+        .people_item {
+            min-width: 700px;
+            min-height: 300px;
+        }
+        .people .people_item h2 {
+            font-size: 40px;
+        }
+        .people .people_item p {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .info_item p {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .info_item h3 {
+            font-size: 30px;
+        }
+        .info_item h2 {
+            font-size: 30px;
+        }
+        .info_item a {
+            font-size: 25px;
+            line-height: 30px;
+        }
     }
-    
-    @media screen and (max-width: 768px) {}
